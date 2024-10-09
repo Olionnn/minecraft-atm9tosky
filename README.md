@@ -12,6 +12,7 @@ services:
       EULA: "true"
       MOD_PLATFORM: AUTO_CURSEFORGE
       # allocate from https://console.curseforge.com/ and set in .env file
+      # cth : '$$2a$$10$$sexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' tambah $ dan single quote
       CF_API_KEY: ${key dari console curseforge}
       CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/all-the-mods-9-to-the-sky # tnggal ganti file
       # Optional: select a specific version/file
